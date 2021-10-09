@@ -1,7 +1,10 @@
 const fs = require('fs')
 const svgToDataURL = require('svg-to-dataurl')
 
-var html = `<head><style>td {text-align: center;}</style></head><body><table style="font-family: monospace" border="1" cellpadding="3"><tr>
+var html = `<head><style>td {text-align: center;}</style></head><body>
+<a href="https://github.com/hyperbotauthor/svgicons">Source on GitHub</a>
+<hr>
+<table style="font-family: monospace" border="1" cellpadding="3"><tr>
 <td>File</td><td>Icon</td><td>Raw SVG</td><td>Data Url</td><td>CSS Class</td>
 </tr>`
 
