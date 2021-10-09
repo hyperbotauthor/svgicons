@@ -1,0 +1,27 @@
+{
+  "name": "svgicons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "yarn run http-server",
+    "build": "node preview.js",
+    "all": "yarn build && yarn serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperbotauthor/svgicons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyperbotauthor/svgicons/issues"
+  },
+  "homepage": "https://github.com/hyperbotauthor/svgicons#readme",
+  "devDependencies": {
+    "http-server": "^13.0.2",
+    "svg-to-dataurl": "^1.0.0"
+  }
+}
